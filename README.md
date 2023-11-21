@@ -1,4 +1,4 @@
-# contact-tracing-system
+# COVID-19 contact-tracing-system
 
 You are developing a simplified contact tracing system for COVID-19. The three (3) main roles in the system are listed below:
 1) Customer – a customer has name, phone, and status. A customer can:
@@ -7,8 +7,8 @@ You are developing a simplified contact tracing system for COVID-19. The three (
   c) Check-in a shop 
   d) View the history of the shops he/she visited
   e) View his/her status. A customer status can have 3 possible values: Normal, Case, Close.
-    i. Normal – The customer is normal.
-    ii. Case – The customer is a case of COVID-19 positive.
+    i. Normal – The customer is normal. <br>
+    ii. Case – The customer is a case of COVID-19 positive. <br>
     iii. Close – The customer is a close contact of a case. For simplicity, a close contact is anyone who checks in the same shop within one-hour range (inclusive) with a                    case. The seconds in check-in time are ignored. 
                 For example, if a case checks in a shop today at 12pm, then:
                 • A customer who checks in yesterday is not a close contact.
